@@ -63,6 +63,18 @@ li {
   font-size: 1em;
   font-weight: 800;
 }
+/* container to keep the how-to aligned consistently */
+.instructions-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+.instructions-container h3 {
+  text-align: center;
+  color: #ff0;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
 </style>
 </head>
 <body>
@@ -80,15 +92,15 @@ li {
 <p style="text-align: center;">telegram: <a href="https://t.me/asscoin_onsol">https://t.me/asscoin_onsol</a></p>
 <p style="text-align: center;">ca: G3EDZoS49NRVKP8X1HggHZJueJeR8d2izUHeXdV3pump</p>
 
-<h3 style="color: #ff0; margin-top: 70px; margin-bottom: 20px; max-width: 600px; text-align: center;">
-  how to buy
-</h3>
-<ol>
-  <li>install your solana wallet - phantom is always a solid choice</li>
-  <li>fund your wallet with $sol, you can buy $sol from an exchange or cross chain swap and send it to your wallet</li>
-  <li>go to your solana inside your wallet and hit "swap"</li>
-  <li>paste the contract address (ca) into phantom and switch sol for $asscoin. <span style="text-decoration: underline;">ASS</span>et of The Year.</li>
-</ol>
+<div class="instructions-container">
+  <h3>how to buy</h3>
+  <ol>
+    <li>install your solana wallet - phantom is always a solid choice</li>
+    <li>fund your wallet with $sol, you can buy $sol from an exchange or cross chain swap and send it to your wallet</li>
+    <li>go to your solana inside your wallet and hit "swap"</li>
+    <li>paste the contract address (ca) into phantom and switch sol for $asscoin. <span style="text-decoration: underline;">ASS</span>et of The Year.</li>
+  </ol>
+</div>
 
 </body>
 </html>
