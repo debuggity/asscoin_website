@@ -508,12 +508,19 @@
     }
 }
 
-
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; /* Place behind content */
+}
 
                     #rec825046270 .t396__artboard {
                         min-height: 710px;
                         height: 100vh;
-                        background-color: #000000;
+/*                         background-color: #000000; */
                     }
 
                     #rec825046270 .t396__filter {
